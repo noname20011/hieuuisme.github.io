@@ -5,7 +5,7 @@
 /* ==================== GOOGLE FONTS ==================== */
 
 :root {
-    --header-height: 3rem;
+    --header-height: 4rem;
     /*  */
     /* ==================== COLOR ==================== */
     --hue-color: 250;
@@ -21,6 +21,9 @@
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
+    --section-color: hsl(360, 47%, 95%);
+    --form-color: hsl(14, 90%, 90%);
+    --btn-color: #fff;
     --container-color: #fff;
     /* ==================== font and typography ==================== */
     --body-font: 'Poppins', sans-serif;
@@ -75,6 +78,7 @@
 }
 
 html {
+    -webkit-overflow-scrolling: smooth;
     scroll-behavior: smooth;
     box-sizing: inherit;
     font-size: 62.5%;
@@ -154,8 +158,4 @@ img {
     to {
         opacity: 1;
     }
-}
-
-.half-gird {
-    width: 50%;
 }
